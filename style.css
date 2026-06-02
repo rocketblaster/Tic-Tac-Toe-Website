@@ -50,3 +50,8 @@ h1 {
     color: white;
     text-decoration: none;
 }
+
+#reset:hover {
+    background-color: rgb(88, 88, 255);
+    color: white;
+}
