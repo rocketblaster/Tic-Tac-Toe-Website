@@ -55,3 +55,19 @@ h1 {
     background-color: rgb(88, 88, 255);
     color: white;
 }
+
+.winner {
+    height: 30vmin;
+    background-color: green;
+    color: white;
+}
+
+.lose {
+    height: 30vmin;
+    background-color: red;
+    color: white;
+}
+
+.message {
+    font-size: 8vmin;
+}
