@@ -4,20 +4,44 @@
     padding: 0;
 }
 
-.container {
-    height: 70vh;
-    display: grid;
-}
-
 body {
+    font-family: Arial;
     background-color: #f1f1f1;
 }
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 375px;
+    height: 375px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.cell {
+    border-radius: 5px;
+    font-size: 8vmin;
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell:hover {
+    background-color: rgb(255, 255, 182);
+}
+
 
 h1 {
     font-family: Arial;
 }
 
 #reset {
+    display: inline;
     border: none;
     padding: 15px;
     font-size: 1em;
