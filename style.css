@@ -1,0 +1,28 @@
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 70vh;
+    display: grid;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+h1 {
+    font-family: Arial;
+}
+
+#reset {
+    border: none;
+    padding: 15px;
+    font-size: 1em;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
