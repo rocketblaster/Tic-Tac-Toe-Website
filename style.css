@@ -56,6 +56,22 @@ h1 {
     color: white;
 }
 
+#new-btn {
+    display: inline;
+    border: none;
+    padding: 15px;
+    font-size: 1em;
+    background-color: black;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+#new-btn:hover {
+    background-color: lightslategray;
+    color: black;   
+}
+
 .winner {
     height: 30vmin;
     background-color: green;
@@ -70,4 +86,8 @@ h1 {
 
 .message {
     font-size: 8vmin;
+}
+
+.hide {
+    display: none;
 }
